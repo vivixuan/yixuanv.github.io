@@ -27,9 +27,9 @@
 </ul>
 </li>
 </ul>
-<h2 id="Block-Elements"><a href="#Block-Elements" class="headerlink" title="Block Elements"></a>Block Elements</h2><h3 id="Paragraphs-and-line-breaks"><a href="#Paragraphs-and-line-breaks" class="headerlink" title="Paragraphs and line breaks"></a>Paragraphs and line breaks</h3><h4 id="paragraphs"><a href="#paragraphs" class="headerlink" title="paragraphs"></a>paragraphs</h4><p>HTML Tag: <code>&lt;p&gt;</code></p>
+<h2 id="Block-Elements"><a href="#Block-Elements" class="headerlink" title="Block Elements"></a>Block Elements</h2><h3 id="Paragraphs-and-Line-breaks"><a href="#Paragraphs-and-Line-breaks" class="headerlink" title="Paragraphs and Line breaks"></a>Paragraphs and Line breaks</h3><h4 id="Paragraphs"><a href="#Paragraphs" class="headerlink" title="Paragraphs"></a>Paragraphs</h4><p>HTML Tag: <code>&lt;p&gt;</code></p>
 <p>one or more blanks lines: <strong>spaces</strong> or <strong>tabs</strong> is considered blank.</p>
-<h4 id="line-breaks"><a href="#line-breaks" class="headerlink" title="line breaks"></a>line breaks</h4><p>HTML Tag: <code>&lt;br /&gt;</code></p>
+<h4 id="Line-breaks"><a href="#Line-breaks" class="headerlink" title="Line breaks"></a>Line breaks</h4><p>HTML Tag: <code>&lt;br /&gt;</code></p>
 <p>end a line with <strong>two or more spaces</strong></p>
 <h3 id="Headers-use-space"><a href="#Headers-use-space" class="headerlink" title="Headers (use ### space)"></a>Headers (use ### space)</h3><h3 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h3><p>HTML Tag: <code>&lt;blockquote&gt;</code><br>Markdown uses email-style <strong>&gt;</strong> characters for blockquoting. It looks best if you can hard wrap the text and put a &gt; before every line.</p>
 <p>Example:</p>
