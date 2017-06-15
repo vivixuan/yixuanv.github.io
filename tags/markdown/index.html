@@ -3,24 +3,15 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Github+Hexo[basics] | Hexo</title>
+    <title>Tag: markdown | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="github" />
-    
-    <meta name="description" content="Hexo is a very useful tool to build static websites and it has lots of simple and beautiful themes to select. Here are few tips that I conclude: (Mac OSX)  create a github account and generate ssh key">
-<meta name="keywords" content="github">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Github+Hexo[basics]">
-<meta property="og:url" content="https://yixuanv.github.io/2017/06/12/github-hexo/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://yixuanv.github.io/tags/markdown/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo is a very useful tool to build static websites and it has lots of simple and beautiful themes to select. Here are few tips that I conclude: (Mac OSX)  create a github account and generate ssh key">
-<meta property="og:image" content="http://blog.zhangruipeng.me/hexo-theme-hueman/gallery/math.jpg">
-<meta property="og:updated_time" content="2017-06-15T12:54:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Github+Hexo[basics]">
-<meta name="twitter:description" content="Hexo is a very useful tool to build static websites and it has lots of simple and beautiful themes to select. Here are few tips that I conclude: (Mac OSX)  create a github account and generate ssh key">
-<meta name="twitter:image" content="http://blog.zhangruipeng.me/hexo-theme-hueman/gallery/math.jpg">
+<meta name="twitter:title" content="Hexo">
     
 
     
@@ -138,147 +129,81 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/Technology/">Technology</a>
+    <i class="icon fa fa-tag"></i>Tag: <em>markdown</em>
     </h1>
 </div>
                         <div class="main-body-content">
-                            <article id="post-github-hexo" class="article article-single article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
+                            
+
+    
+    
         
-            <header class="article-header">
-                
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2017/06/15/markdown/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://rstudioblog.files.wordpress.com/2014/06/keep-calm-and-markdown.png)" alt="Markdown basics" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://yixuanv.github.io/2017/06/15/markdown/">0</span>
+    
+</span>
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Technology/">Technology</a>
+            </div>
+            <div class="date"><time datetime="2017-06-15T16:33:05.000Z" itemprop="datePublished">2017-06-15</time></div>
+        </div>
+        
     
         <h1 class="article-title" itemprop="name">
-        Github+Hexo[basics]
+        <a href="/2017/06/15/markdown/">Markdown basics</a>
         </h1>
     
 
-            </header>
-        
-        
-            <div class="article-meta">
-                
-    <div class="article-date">
-        <a href="/2017/06/12/github-hexo/" class="article-date">
-            <time datetime="2017-06-12T21:36:01.000Z" itemprop="datePublished">2017-06-12</time>
-        </a>
-    </div>
-
-                
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/github/">github</a>
-    </div>
-
-            </div>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-            <p>Hexo is a very useful tool to build static websites and it has lots of simple and beautiful themes to select. Here are few tips that I conclude: (Mac OSX)</p>
-<ol>
-<li>create a github account and generate ssh keys. Do not create two accounts at the same time or it will bring trouble!!</li>
-<li><p>create a new respository and a new file (<code>mkdir</code>) called “blog” and follow its instructions:</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git add .</div><div class="line">git commit</div></pre></td></tr></table></figure>
-</li>
-<li><p>install <code>node</code> and xcode</p>
-</li>
-<li>install hexo in “blog” file: sudo npm install -g hexo</li>
-<li><p>Setup</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo init</div><div class="line">  hexo generate</div><div class="line">  hexo server</div></pre></td></tr></table></figure>
-</li>
-<li><p>create a new respository called your_user_name.github.io</p>
-</li>
-<li><p>revise _config.yml file to:</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/username/username.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>npm install hexo-deployer-git –save</p>
-</li>
-<li>hexo generate</li>
-<li>hexo server </li>
-<li>hexo deploy</li>
-</ol>
-<h2 id="what-should-I-do-if-create-two-accounts"><a href="#what-should-I-do-if-create-two-accounts" class="headerlink" title="what should I do if create two accounts?"></a>what should I do if create two accounts?</h2><p>In the settings, we can transfer the respository into another account then delete one account.</p>
-<h2 id="Done"><a href="#Done" class="headerlink" title="Done!"></a>Done!</h2><p><img src="http://blog.zhangruipeng.me/hexo-theme-hueman/gallery/math.jpg" alt=""></p>
-
-        </div>
-        <footer class="article-footer">
+        <p class="article-excerpt">
             
+Markdown is used in GitHub, GitBook, Reddit, Diaspora, Stack Overflow, OpenStreetMap, and many others.
 
-
-
-    <a data-url="https://yixuanv.github.io/2017/06/12/github-hexo/" data-id="cj3ynfsf50001suz6itn1w0yj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-        </footer>
+Block Elements
+Paragraphs and Line Breaks
+Headers
+Blockquotes
+Lists
+Code Blocks
+Horizontal Rule
+        </p>
     </div>
 </article>
-
-    <section id="comments">
     
-        
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-
+        </div>
     
-    </section>
+
+
+    </div></section>
+
 
 
                         </div>
@@ -339,23 +264,6 @@
             
         </ul>
     </div>
-    
-        
-<nav id="article-nav">
-    
-        <a href="/2017/06/15/markdown/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            Markdown basics
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
-    
-    
-</nav>
-
     
     <div class="widgets-container">
         
@@ -483,13 +391,11 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'https://yixuanv.github.io/2017/06/12/github-hexo/';
-    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
