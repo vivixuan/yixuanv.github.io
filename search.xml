@@ -3,6 +3,43 @@
   
     
     <entry>
+      <title><![CDATA[Os Command updating (summer 2017)]]></title>
+      <url>/2017/06/29/OS%20command-%20summer%202017%20updating/</url>
+      <content type="html"><![CDATA[<p><img src="../images/IMG_6477.JPG" alt=""></p>
+<ol>
+<li><p>The most common one I use is: </p>
+<ul>
+<li>cd :    change directory  </li>
+<li>cd..:   containing folder    </li>
+<li>cd/:    absolute path        </li>
+<li>ls:     show the files</li>
+<li>cd-:    previous working directory</li>
+<li>mkdir:  create a new folder</li>
+<li>cat:    display</li>
+<li>open:   just open a file</li>
+<li>pwd:    show the full path</li>
+<li></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> Technology </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> computer science </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Markdown basics]]></title>
       <url>/2017/06/15/markdown/</url>
       <content type="html"><![CDATA[<p><img src="https://rstudioblog.files.wordpress.com/2014/06/keep-calm-and-markdown.png" alt=""></p>
